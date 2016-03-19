@@ -1,0 +1,6 @@
+language: java
+sudo: false
+env:
+  -oraclejdk8
+script:
+  -mvn verify clean test
